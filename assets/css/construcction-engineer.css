@@ -1,0 +1,202 @@
+.margin--top--180 {
+   margin-top: 180px;
+}
+
+.c--e--body--bg {
+   background-image: url("../images/c--e--body--vector--1.png");
+   background-position: top left;
+   /* background-size: contain; */
+   background-repeat: no-repeat;
+}
+
+.construction--hero {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1140px 1fr;
+   align-items: center;
+   min-height: 700px;
+   background-image: url("../images/c--e--hero--img.png");
+   background-repeat: no-repeat;
+   background-position: top right;
+   /* margin-top: 80px; */
+   overflow-x: hidden;
+}
+
+.construction--hero .container {
+   margin: 0;
+}
+
+.construction--hero h3 {
+   display: flex;
+   align-items: center;
+}
+
+.construction--hero h3::before {
+   content: "";
+   display: inline-block;
+   width: 3px;
+   height: 24px;
+   background-color: #DA383D;
+   margin-right: 20px;
+}
+
+.construction--solutions--heading {
+   color: var(--gray-800, #1D2939);
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 62.4px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 20px;
+   max-width: 800px;
+}
+
+.construction--solutions--content {
+   color: var(--gray-500, #667085);
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28.8px;
+   width: 682px;
+   margin: auto;
+   margin-bottom: 50px;
+}
+
+.construction--solutions .image--card .img--div {
+   width: 222px;
+   margin: auto;
+}
+
+.construction--solutions .image--card .img--div img {
+   width: 100%;
+   margin: auto;
+}
+
+.construction--solutions .image--card .img--content .img--content--title {
+   color: #1D2939;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 35.16px;
+}
+
+.construction--solutions .image--card .img--content .img--content--text {
+   color: var(--gray-500, #667085);
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28.8px;
+   margin: 0 28px;
+}
+
+#home-banner-2 {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   /* padding: 80px 0; */
+   align-items: center;
+}
+
+.hero-banner-2 {
+   min-height: 750px;
+   background-image: url("../images/hero-2.png");
+   background-position: top right;
+   background-size: 850px;
+   background-repeat: no-repeat;
+}
+
+.hero-2 h3::before {
+   content: "";
+   display: inline-block;
+   width: 3px;
+   height: 34px;
+   background-color: #DA383D;
+   margin-right: 20px;
+   position: absolute;
+   top: -6px;
+   left: -20px;
+}
+
+.hero-2 h3 {
+   margin: 10px 25px;
+}
+
+#home-banner-2 .container {
+   width: 63%;
+   margin: 0;
+}
+
+#home-banner-2 .container .red-circle-para {
+   display: grid;
+   grid-template-columns: 5% 1fr;
+}
+
+#home-banner-2 .container .red-circle-para img {
+   padding-top: 7px;
+}
+
+
+
+
+@media only screen and (max-width:1920px) {
+   .construction--hero {
+      min-height: 980px;
+   }
+}
+
+@media only screen and (max-width:1800px) {
+   .construction--hero {
+      min-height: 600px;
+      background-image: url("../images/c--e--hero--img.png");
+      background-position: top right;
+      background-size: contain;
+   }
+}
+
+@media only screen and (max-width:1280px) {
+   .construction--hero {
+      min-height: 500px;
+      background-image: url("../images/c--e--hero--img.png");
+      background-position: top right;
+      background-size: contain;
+   }
+}
+
+@media only screen and (max-width:1140px) {
+   .construction--hero {
+      grid-template-columns: 1fr 100% 1fr;
+   }
+}
+
+@media only screen and (max-width: 960px) {
+   .construction--hero {
+      background-position: top right;
+      min-height: 400px;
+   }
+}
+
+/* @media only screen and (max-width: 768px) {
+   .construction--hero {
+      background-image: url("../images/heading-mountains-mobile.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 768px;
+   }
+
+} */
+
+@media only screen and (max-width: 500px) {
+   .construction--hero {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 100px;
+   }
+}
