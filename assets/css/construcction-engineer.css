@@ -98,16 +98,33 @@
    margin: 0 28px;
 }
 
-#home-banner-2 {
+ #home-banner-2 {
    display: grid;
    grid-template-columns: 50% 50%;
    /* padding: 80px 0; */
    align-items: center;
+   gap: 40px;
+}
+
+.forth-section #home-banner-2 {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   /* padding: 80px 0; */
+   align-items: center;
+   gap: 40px;
 }
 
 .hero-banner-2 {
-   min-height: 750px;
+   min-height: 850px;
    background-image: url("../images/hero-2.png");
+   background-position: top right;
+   background-size: 850px;
+   background-repeat: no-repeat;
+}
+
+.forth-section #home-banner-2 .hero-banner-2 {
+   min-height: 850px;
+   background-image: url("../images/forth-section-banner.png");
    background-position: top right;
    background-size: 850px;
    background-repeat: no-repeat;
@@ -127,6 +144,7 @@
 
 .hero-2 h3 {
    margin: 10px 25px;
+   position: relative;
 }
 
 #home-banner-2 .container {
@@ -141,6 +159,23 @@
 
 #home-banner-2 .container .red-circle-para img {
    padding-top: 7px;
+}
+
+.forth-section #home-banner-2 .engineering-box {
+   padding: 20px;
+   border: 1px solid transparent;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 30px;
+}
+
+.forth-section #home-banner-2 .engineering-box .engineering-image-box {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.forth-section #home-banner-2 .engineering-box .engineering-image-box img {
+    width: 80px;
 }
 
 
